@@ -160,6 +160,7 @@ add_contrib (hive-metastore-cmake hive-metastore) # requires: thrift, avro, arro
 add_contrib (cppkafka-cmake cppkafka)
 add_contrib (libpqxx-cmake libpqxx)
 add_contrib (libpq-cmake libpq)
+add_contrib (connectorx-cmake connectorx)
 add_contrib (nuraft-cmake NuRaft)
 add_contrib (fast_float-cmake fast_float)
 add_contrib (datasketches-cpp-cmake datasketches-cpp)

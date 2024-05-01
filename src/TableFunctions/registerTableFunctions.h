@@ -73,6 +73,8 @@ void registerTableFunctionAzureBlobStorage(TableFunctionFactory & factory);
 void registerTableFunctionAzureBlobStorageCluster(TableFunctionFactory & factory);
 #endif
 
+void registerTableFunctionConnectorX(TableFunctionFactory & factory);
+
 void registerTableFunctions();
 
 }

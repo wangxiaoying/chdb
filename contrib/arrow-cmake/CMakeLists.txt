@@ -563,3 +563,5 @@ if (OMIT_HEAVY_DEBUG_SYMBOLS)
     target_compile_options (_arrow PRIVATE -g0)
     target_compile_options (_parquet PRIVATE -g0)
 endif()
+
+add_library(ch_contrib::arrow ALIAS _arrow)
